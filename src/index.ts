@@ -25,7 +25,7 @@ const app = new Hono<{ Bindings: Bindings }, { Variables: Variables }>();
 // app.use(
 //   '/*',
 //   cors({
-//     origin: 'https://admin.xmind.aifake.xyz',
+//     origin: 'https://admin.api.xmind.cc',
 //   })
 // )
 app.use('*', cors())
